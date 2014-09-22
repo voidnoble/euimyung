@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:euimyung="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search, should appear as action button -->
+	<item android:id="@+id/font_increase"
+	      android:icon="@android:drawable/arrow_up_float"
+	      android:title="@string/font_increase"
+	      euimyung:showAsAction="ifRoom|withText" />
+	
+	<item android:id="@+id/font_decrease"
+	      android:icon="@android:drawable/arrow_down_float"
+	      android:title="@string/font_decrease"
+	      euimyung:showAsAction="ifRoom|withText" />
+	
+	<!-- Settings, should always be in the overflow -->
+	<!-- <item android:id="@+id/action_settings"
+	      android:title="@string/action_settings"
+	      android:showAsAction="never" /> -->
+
+</menu>

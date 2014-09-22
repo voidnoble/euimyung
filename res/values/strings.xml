@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">의명학</string>
+    <string name="app_title">정경대 박사의 의명학</string>
+    
+    <string name="button_about">의명학이란</string>
+    <string name="button_video_medicine">의학편 동영상</string>
+    <string name="button_video_famewealth">명리편 동영상</string>
+    <string name="button_library">의명학 서고</string>
+    <string name="button_abook">단행본</string>
+    <string name="button_homepage">한국의명학회 사이트 이동</string>
+    
+    <string name="title_item_detail">Item Detail</string>
+    
+    <string name="section_about">의명학</string>
+    <string name="title_about">의명학이란</string>
+    <string name="title_introduction">의명학 소개</string>
+    <string name="title_history">박사님 이력/소개</string>
+    <string name="title_column">박사님 칼럼</string>
+    
+    <string name="section_video">동영상</string>
+    <string name="title_medicine">의학편</string>
+    <string name="title_famewealth">명리편</string>
+    
+    <string name="section_library">서고</string>
+    <string name="title_enterance">입문본</string>
+    <string name="title_abook">단행본</string>
+    
+    <string name="letcure">강</string>
+    <string name="volume">권</string>
+    <string name="pending">미정</string>
+    
+    <string name="video_thumbnail">동영상 썸네일</string>
+    <string name="video_description">동영상 설명</string>
+    
+    <string name="action_zoom">크게보기</string>
+    <string name="font_increase">글자크게</string>
+    <string name="font_decrease">글자작게</string>
+	
+	<string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description">Media Controls</string>
+    
+</resources>

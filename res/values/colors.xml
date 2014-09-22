@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#CCC</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="sky">#CCEEFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="lightgray">#CCC</color>
+    <color name="highlight">#D23309</color>
+    <color name="button">#382C1C</color>
+    <color name="subtitle">#382C1C</color>
+    <color name="highlight2">#FFEA00</color>
+    <color name="background">#E8E3CD</color>
+</resources>
