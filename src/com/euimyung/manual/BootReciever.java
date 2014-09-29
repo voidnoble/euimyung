@@ -12,10 +12,8 @@ public class BootReciever extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-		// TODO Auto-generated method stub
 		Intent cIntent = new Intent(context, MainActivity.class);
 		cIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//	    context.startActivity(cIntent);
 	    context.startService(cIntent);
 	}
 }

@@ -23,11 +23,8 @@ public class ZoomView extends FrameLayout {
      * 
      */
     public interface ZoomViewListener {
-
         void onZoomStarted(float zoom, float zoomx, float zoomy);
-
         void onZooming(float zoom, float zoomx, float zoomy);
-
         void onZoomEnded(float zoom, float zoomx, float zoomy);
     }
 

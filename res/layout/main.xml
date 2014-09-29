@@ -58,26 +58,26 @@
 		android:orientation="horizontal" >
 		
         <Button
-		    android:id="@+id/btn_abook"
-		    android:layout_width="100dp"
-		    android:layout_height="100dp"
-		    android:background="@drawable/button_orange_oval"
-		    android:onClick="onAbookButtonClicked"
-		    android:text="@string/button_abook"
-		    android:textAppearance="?android:attr/textAppearanceMedium"
-		     />
-	
-		<Button
 		    android:id="@+id/btn_library"
 		    android:layout_width="100dp"
-		    android:layout_height="100dp"
-		    android:layout_marginLeft="10dp"
+		    android:layout_height="100dp"		    
 		    android:background="@drawable/button_sky_oval"
 		    android:onClick="onLibraryButtonClicked"
 		    android:text="@string/button_library"
 		    android:textAppearance="?android:attr/textAppearanceMedium"
 		     />
         
+        <Button
+		    android:id="@+id/btn_abook"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_marginLeft="10dp"
+		    android:background="@drawable/button_orange_oval"
+		    android:onClick="onAbookButtonClicked"
+		    android:text="@string/button_abook"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		     />
+            
     </LinearLayout>
     
 	<Button

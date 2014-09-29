@@ -68,7 +68,7 @@ public class AboutActivity extends ActionBarActivity implements AboutItemListFra
 	@Override
 	public void onItemSelected(String id) {
 		if (mTwoPane) {
-            // In two-pane mode, show the detail view in this activity by
+		    // In two-pane mode, show the detail view in this activity by
             // adding or replacing the detail fragment using a
             // fragment transaction.
             Bundle arguments = new Bundle();
@@ -78,6 +78,12 @@ public class AboutActivity extends ActionBarActivity implements AboutItemListFra
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.details_frag, fragment)
                     .commit();
+			
+            if (id == "about_column") {				
+				Intent columnIntent = new Intent(this, ColumnActivity.class);
+				columnIntent.putExtra("title", getResources().getString(R.string.title_column));
+	            startActivity(columnIntent);
+			}
 
         } else {
             // In single-pane mode, simply start the detail activity
